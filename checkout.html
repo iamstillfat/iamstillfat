@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Return Policy — I Am Still Fat</title>
+  <title>Checkout — I Am Still Fat</title>
   <link rel="icon" href="/favicon.png">
   <meta name="description" content="I Am Still Fat — playful streetwear sweats and sets since 2018.">
   <link rel="stylesheet" href="assets/css/styles.css">
@@ -20,7 +20,7 @@
       <ul>
         <li><a class="" href="about.html">About</a></li>
         <li><a class="" href="shop.html">Shop</a></li>
-        <li><a class="active" href="returns.html">Return Policy</a></li>
+        <li><a class="" href="returns.html">Return Policy</a></li>
         <li><a class="" href="contact.html">Contact</a></li>
         <li><a class="cart-link" href="cart.html">Cart <span id="cart-count" class="cart-count">0</span></a></li>
       </ul>
@@ -29,15 +29,19 @@
 </header>
 
 <main class="container">
-  <h1>Return Policy</h1>
-  <ol>
-    <li><strong>Return Window:</strong> 30 days from delivery to request a return or exchange.</li>
-    <li><strong>Condition:</strong> Items must be unworn, unwashed, and in original condition with tags attached.</li>
-    <li><strong>Refunds & Exchanges:</strong> Refunds go to the original payment method after inspection. Exchanges available for size/color while supplies last.</li>
-    <li><strong>Non‑Returnable:</strong> Sale items, gift cards, and custom pieces are final sale.</li>
-    <li><strong>Start a Return:</strong> Email <a href="mailto:taurez@iamsofat.com">taurez@iamsofat.com</a> with your order number and reason. Customers cover return shipping unless the item is defective or incorrect.</li>
-    <li><strong>Processing:</strong> Please allow 5–7 business days after we receive your return.</li>
-  </ol>
+  <h1>Checkout</h1>
+  <div id="order-summary" class="pad" style="background:#fff;border:2px solid var(--ink);border-radius:16px;margin-bottom:16px"></div>
+  <form id="checkout-form">
+    <h2>Shipping details</h2>
+    <label>Full name</label><input name="name" required>
+    <label>Email</label><input type="email" name="email" required>
+    <label>Address</label><input name="address" required>
+    <label>City</label><input name="city" required>
+    <label>State</label><input name="state" required>
+    <label>ZIP</label><input name="zip" required>
+    <button type="submit">Place Order</button>
+  </form>
+  <p id="checkout-success" style="display:none;margin-top:12px" class="pad">Thanks! Your order is recorded. We’ll email you at <span id="success-email"></span>.</p>
 </main>
 
 <footer>

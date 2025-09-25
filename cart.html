@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Return Policy — I Am Still Fat</title>
+  <title>Cart — I Am Still Fat</title>
   <link rel="icon" href="/favicon.png">
   <meta name="description" content="I Am Still Fat — playful streetwear sweats and sets since 2018.">
   <link rel="stylesheet" href="assets/css/styles.css">
@@ -20,7 +20,7 @@
       <ul>
         <li><a class="" href="about.html">About</a></li>
         <li><a class="" href="shop.html">Shop</a></li>
-        <li><a class="active" href="returns.html">Return Policy</a></li>
+        <li><a class="" href="returns.html">Return Policy</a></li>
         <li><a class="" href="contact.html">Contact</a></li>
         <li><a class="cart-link" href="cart.html">Cart <span id="cart-count" class="cart-count">0</span></a></li>
       </ul>
@@ -29,15 +29,16 @@
 </header>
 
 <main class="container">
-  <h1>Return Policy</h1>
-  <ol>
-    <li><strong>Return Window:</strong> 30 days from delivery to request a return or exchange.</li>
-    <li><strong>Condition:</strong> Items must be unworn, unwashed, and in original condition with tags attached.</li>
-    <li><strong>Refunds & Exchanges:</strong> Refunds go to the original payment method after inspection. Exchanges available for size/color while supplies last.</li>
-    <li><strong>Non‑Returnable:</strong> Sale items, gift cards, and custom pieces are final sale.</li>
-    <li><strong>Start a Return:</strong> Email <a href="mailto:taurez@iamsofat.com">taurez@iamsofat.com</a> with your order number and reason. Customers cover return shipping unless the item is defective or incorrect.</li>
-    <li><strong>Processing:</strong> Please allow 5–7 business days after we receive your return.</li>
-  </ol>
+  <h1>Your Cart</h1>
+  <div id="cart-empty" style="display:none">Your cart is empty. <a class="btn" href="shop.html">Shop now</a></div>
+  <div id="cart-table-wrap">
+    <table id="cart-table">
+      <thead><tr><th>Item</th><th>Size</th><th>Qty</th><th>Price</th><th>Subtotal</th><th></th></tr></thead>
+      <tbody></tbody>
+      <tfoot><tr><td colspan="4">Total</td><td id="cart-total">$0.00</td><td></td></tr></tfoot>
+    </table>
+    <p style="margin-top:12px"><a class="btn" href="checkout.html">Checkout</a></p>
+  </div>
 </main>
 
 <footer>

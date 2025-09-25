@@ -1,25 +1,28 @@
-
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Shop — I Am Still Fat</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="/favicon.png">
+  <meta name="description" content="I Am Still Fat — playful streetwear sweats and sets since 2018.">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/js/app.js"></script>
 </head>
 <body>
 <header>
   <div class="navbar container">
     <a class="logo" href="index.html">
-      <img src="images/logo.png" alt="I Am Still Fat logo">
+      <img src="assets/images/logo.png" alt="I Am Still Fat logo">
       <span class="brand">I AM STILL FAT</span>
     </a>
     <nav>
       <ul>
-        <li><a href="about.html">About</a></li>
-        <li><a href="shop.html">Shop</a></li>
-        <li><a href="returns.html">Return Policy</a></li>
-        <li><a class="cta" href="contact.html">Contact</a></li>
+        <li><a class="" href="about.html">About</a></li>
+        <li><a class="active" href="shop.html">Shop</a></li>
+        <li><a class="" href="returns.html">Return Policy</a></li>
+        <li><a class="" href="contact.html">Contact</a></li>
+        <li><a class="cart-link" href="cart.html">Cart <span id="cart-count" class="cart-count">0</span></a></li>
       </ul>
     </nav>
   </div>
@@ -27,28 +30,7 @@
 
 <main class="container">
   <h1>Shop the Collection</h1>
-  <div class="grid">
-    <div class="card">
-      <img src="images/sweat1.jpg" alt="Navy Logo Sweat Set">
-      <div class="pad"><strong>Navy Logo Sweat Set</strong><br><small>Relaxed fit • Mascot chest print</small></div>
-    </div>
-    <div class="card">
-      <img src="images/sweat2.jpg" alt="Gray Comfort Edition">
-      <div class="pad"><strong>Gray Comfort Edition</strong><br><small>Ultra-soft fleece • Wordmark print</small></div>
-    </div>
-    <div class="card">
-      <img src="images/sweat3.jpg" alt="Dusty Blue Streetwear">
-      <div class="pad"><strong>Dusty Blue Streetwear</strong><br><small>Drop-shoulder • Bold front logo</small></div>
-    </div>
-    <div class="card">
-      <img src="images/sweat4.jpg" alt="Classic Black Joggers">
-      <div class="pad"><strong>Classic Black Joggers</strong><br><small>Drawstring waist • Mascot patch</small></div>
-    </div>
-    <div class="card">
-      <img src="images/sweat5.jpg" alt="Forest Green Premium">
-      <div class="pad"><strong>Forest Green Premium</strong><br><small>Heavyweight • Embroidered detail</small></div>
-    </div>
-  </div>
+  <div id="shop-grid" class="grid"></div>
 </main>
 
 <footer>

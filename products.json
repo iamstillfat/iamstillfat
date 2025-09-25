@@ -1,0 +1,37 @@
+[
+  {
+    "id": "p1",
+    "name": "Navy Logo Set",
+    "price": 79.0,
+    "img": "assets/images/sweat1.jpg",
+    "desc": "Relaxed fit hoodie + joggers with bold mascot chest print."
+  },
+  {
+    "id": "p2",
+    "name": "Gray Comfort Edition",
+    "price": 75.0,
+    "img": "assets/images/sweat2.jpg",
+    "desc": "Ultra\u2011soft fleece set with wordmark print and drawstring waist."
+  },
+  {
+    "id": "p3",
+    "name": "Dusty Blue Streetwear",
+    "price": 79.0,
+    "img": "assets/images/sweat3.jpg",
+    "desc": "Dusty blue drop\u2011shoulder set with oversized logo."
+  },
+  {
+    "id": "p4",
+    "name": "Classic Black Joggers",
+    "price": 59.0,
+    "img": "assets/images/sweat4.jpg",
+    "desc": "Classic black joggers with embroidered mascot patch."
+  },
+  {
+    "id": "p5",
+    "name": "Forest Green Premium",
+    "price": 82.0,
+    "img": "assets/images/sweat5.jpg",
+    "desc": "Forest green heavyweight set with premium details."
+  }
+]

@@ -1,25 +1,28 @@
-
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Contact — I Am Still Fat</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="/favicon.png">
+  <meta name="description" content="I Am Still Fat — playful streetwear sweats and sets since 2018.">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/js/app.js"></script>
 </head>
 <body>
 <header>
   <div class="navbar container">
     <a class="logo" href="index.html">
-      <img src="images/logo.png" alt="I Am Still Fat logo">
+      <img src="assets/images/logo.png" alt="I Am Still Fat logo">
       <span class="brand">I AM STILL FAT</span>
     </a>
     <nav>
       <ul>
-        <li><a href="about.html">About</a></li>
-        <li><a href="shop.html">Shop</a></li>
-        <li><a href="returns.html">Return Policy</a></li>
-        <li><a class="cta" href="contact.html">Contact</a></li>
+        <li><a class="" href="about.html">About</a></li>
+        <li><a class="" href="shop.html">Shop</a></li>
+        <li><a class="" href="returns.html">Return Policy</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+        <li><a class="cart-link" href="cart.html">Cart <span id="cart-count" class="cart-count">0</span></a></li>
       </ul>
     </nav>
   </div>
@@ -28,12 +31,9 @@
 <main class="container">
   <h1>Get in Touch</h1>
   <form action="mailto:taurez@iamsofat.com" method="post" enctype="text/plain">
-    <label>Name</label>
-    <input type="text" name="name" required>
-    <label>Email</label>
-    <input type="email" name="email" required>
-    <label>Message</label>
-    <textarea name="message" rows="6" required></textarea>
+    <label>Name</label><input name="name" required>
+    <label>Email</label><input type="email" name="email" required>
+    <label>Message</label><textarea name="message" rows="6" required></textarea>
     <button type="submit">Send Message</button>
   </form>
 </main>

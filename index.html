@@ -1,26 +1,28 @@
-
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>I Am Still Fat — Official Store</title>
+  <link rel="icon" href="/favicon.png">
   <meta name="description" content="I Am Still Fat — playful streetwear sweats and sets since 2018.">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/js/app.js"></script>
 </head>
 <body>
 <header>
   <div class="navbar container">
     <a class="logo" href="index.html">
-      <img src="images/logo.png" alt="I Am Still Fat logo">
+      <img src="assets/images/logo.png" alt="I Am Still Fat logo">
       <span class="brand">I AM STILL FAT</span>
     </a>
     <nav>
       <ul>
-        <li><a href="about.html">About</a></li>
-        <li><a href="shop.html">Shop</a></li>
-        <li><a href="returns.html">Return Policy</a></li>
-        <li><a class="cta" href="contact.html">Contact</a></li>
+        <li><a class="" href="about.html">About</a></li>
+        <li><a class="" href="shop.html">Shop</a></li>
+        <li><a class="" href="returns.html">Return Policy</a></li>
+        <li><a class="" href="contact.html">Contact</a></li>
+        <li><a class="cart-link" href="cart.html">Cart <span id="cart-count" class="cart-count">0</span></a></li>
       </ul>
     </nav>
   </div>
@@ -34,26 +36,13 @@
     <p><a class="btn" href="shop.html">Shop the Collection</a></p>
   </div>
   <div class="hero-card">
-    <img src="images/sweat1.jpg" alt="Navy logo sweat set">
+    <img src="assets/images/sweat1.jpg" alt="Navy logo sweat set">
   </div>
 </section>
 
 <section class="container">
   <h2>Featured Drops</h2>
-  <div class="grid">
-    <div class="card">
-      <img src="images/sweat2.jpg" alt="Gray comfort sweat set">
-      <div class="pad"><strong>Gray Comfort Edition</strong><br><a class="btn" href="shop.html">View</a></div>
-    </div>
-    <div class="card">
-      <img src="images/sweat3.jpg" alt="Dusty blue streetwear">
-      <div class="pad"><strong>Dusty Blue Streetwear</strong><br><a class="btn" href="shop.html">View</a></div>
-    </div>
-    <div class="card">
-      <img src="images/sweat4.jpg" alt="Classic black joggers">
-      <div class="pad"><strong>Classic Black Joggers</strong><br><a class="btn" href="shop.html">View</a></div>
-    </div>
-  </div>
+  <div id="featured" class="grid"></div>
 </section>
 
 <footer>
